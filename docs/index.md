@@ -42,9 +42,9 @@ space remains unallocated (usually less than 2 GB).
 
 Then manually create a RAID-6 array across the same partition numbers, so there are
 multiple raid arrays (e.g. md0 across all the first partitions, md1 across all the
-available 2 TB partitions (i.e skipping any 2TB or 3TB drives), and so on. Then one
-final RAID-6 array is created from the 1TB partitions, provided there are at least
-3 x 1TB available partitions available.
+available second 2 TB partitions (i.e skipping any 2TB or 3TB drives), and so on.
+Then one final RAID-6 array is created from the 1TB partitions, provided there are
+at least 3 x 1TB available partitions available.
 
 Each of the raid devices have been created, then each one is formatted as a LVM2 
 physical volume and added to the same volume group. This makes almost all of the
