@@ -59,9 +59,9 @@ expect from a single RAID-6 array of drives of the same size.
 
 | Drive Model               | Capacity | Sector Count | Actual Capacity |
 | ------------------------- | -------: | ------------ | --------------: |
-| Seagate ST6000VN0041      |    6GB   | 11721045168  |      6001.1751  |
-| Western Digital WD80EZAZ  |    8GB   | 15628053168  |      8001.5628  |
-| Western Digital WD100EMAZ |   10GB   | 19532873728  |     10000.8303  |
+| Seagate ST6000VN0041      |   6000GB | 11721045168  |      6001.1751  |
+| Western Digital WD80EZAZ  |   8000GB | 15628053168  |      8001.5628  |
+| Western Digital WD100EMAZ |  10000GB | 19532873728  |     10000.8303  |
 
 
 
