@@ -40,6 +40,17 @@ space remaining, and then checks to see if there is sufficient space to allocate
 one more 1TB partition if sufficient space remains, and then one more partition 
 with whatever space remains unallocated.
 
+###  Actual Drive Size Examples
+
+| Drive Model               | Capacity | Sector Count | Actual Capacity |
+| ------------------------- | -------: | ------------ | --------------: |
+| Seagate ST6000VN0041      |    6GB   | 11721045168  |      6001.1751  |
+| Western Digital WD80EZAZ  |    8GB   | 15628053168  |      8001.5628  |
+| Western Digital WD100EMAZ |   10GB   | 19532873728  |     10000.8303  |
+
+
+
+
 ****
 ## Further Reading
 
